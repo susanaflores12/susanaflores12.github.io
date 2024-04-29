@@ -1,0 +1,55 @@
+.logo{
+    width: 1300px;
+    height: 560PX;
+    margin: 0;
+    padding: 0;
+}
+
+.derecha{
+    width: 500px;
+    height: 500PX;
+}
+
+.izquierda{
+    width: 500px;
+    height: 500PX;
+}
+
+.TITULO {
+    text-align: center;
+}
+
+.NADADORT {
+    width: 100%; /* Ajusta el ancho según sea necesario */
+}
+
+.NADADOR {
+    float: right; /* Hace que la imagen flote a la derecha del texto */
+    margin-left: 10px; /* Añade un espacio entre el texto y la imagen */
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.texto {
+    flex: 1;
+    text-align: justify;
+    font-size: 20px;
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.imagen {
+    flex: 1;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 5%;
+}
+
+.subtitulo {
+    text-align:center;
+}
